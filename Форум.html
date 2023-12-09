@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навчальний портал</title>
+    <style>
+ 
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .menu-item a:hover {
+            color: #ff4500;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .development-image {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .development-text {
+            max-width: 600px;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="menu">
+                <div class="menu-item"><a href="Головна.html">Головна</a></div>
+                <div class="menu-item"><a href="Матеріали.html">Матеріали</a></div>
+                <div class="menu-item"><a href="#">ФОРУМ</a></div>
+                <div class="menu-item"><a href="Фідбек.html">Фідбек</a></div>
+                <div class="menu-item"><a href="Про нас.html">Про нас</a></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="InDevelopment.png" alt="Форум - В разработке" class="development-image">
+            <p class="development-text">
+                <strong>Форум в розробці!</strong> <br>
+              Ми працюємо над створенням цікавого та освітнього форуму для наших.<br> Слідкуйте за оновленнями, ми скоро відкриємо форум для вас!
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Навчальний портал. Усі права захищені.</p>
+    </footer>
+</body>
+
+</html>
